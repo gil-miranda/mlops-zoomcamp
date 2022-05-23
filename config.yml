@@ -1,8 +1,9 @@
 datasets:
+  folder: data/raw
   section-01:
     ride-prediction:
       train: https://s3.amazonaws.com/nyc-tlc/trip+data/green_tripdata_2021-01.parquet
       test: https://s3.amazonaws.com/nyc-tlc/trip+data/green_tripdata_2021-02.parquet
     homework:
       train: https://nyc-tlc.s3.amazonaws.com/trip+data/fhv_tripdata_2021-01.parquet
-      test: https://s3.amazonaws.com/nyc-tlc/trip+data/green_tripdata_2021-02.parquet
+      test: https://nyc-tlc.s3.amazonaws.com/trip+data/fhv_tripdata_2021-02.parquet
